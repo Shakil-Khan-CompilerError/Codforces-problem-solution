@@ -12,8 +12,6 @@ int main()
         if(s[i]!=s[i-1])
             ans++;
     }
-//    cout<<s<<endl;
-//    cout<<ans<<endl;
     if(ans&1)
         cout<<"CHAT WITH HER!"<<endl;
     else
